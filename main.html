@@ -3,11 +3,55 @@
 <html>
 
 <head>
+	<title>Develop a Pricing Card Page</title>
+	<style>
+		.container{
+  width: 400px;
+  height: 620px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  background-color: whitesmoke;
+
+  		}
+		#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .title{
+	font-size: 50px;
+    text-align: center;
+	}
+	#buy-now , p{
+			font-family: sans-serif;
+			font-size: 30px;
+		    text-align: center
+		}
+		#buy-now {
+			display:block;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: red;
+			border-radius: 10px;
+			color: white;
+			border: none;
+			padding: 10px;
+		}
+	</style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<main class="container">
+<img id="img" src="https://www.withlovenregards.com/img/cakes/half-kg/heart-shape-red-velvet-cake.jpg" width="350px" height="250px">	
+		<h1 class="title">Pricing Card</h1>
+	<p>Price: Rs.200</p>
+		<p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<button type="submit" id="buy-now">Buy Now</button>
+	</main>
     <script type="text/javascript" src="./script.js">
 </script>
 
